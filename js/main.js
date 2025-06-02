@@ -1,3 +1,15 @@
+const menu = document.querySelector(".menu-toggle");
+const navBar = document.querySelector(".navbar");
+const close = document.querySelector(".close");
+
+menu.addEventListener("click", function () {
+  navBar.classList.toggle("active");
+});
+
+close.addEventListener("click", function () {
+  navBar.classList.remove("active");
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const counter3 = document.querySelector(".counter-3");
 
@@ -102,7 +114,7 @@ gsap.to(".loading-screen", {
   ease: "power1.inOut",
 });
 
-gsap.to("h1", 1.5, {
+gsap.to("hero", 1.5, {
   delay: 7,
   y: -80,
   ease: "power4.inOut",

@@ -12,19 +12,14 @@
     <link rel="stylesheet" href="assets/fonts/font.css" />
 
     <!-- Icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"
-      integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
+    <!-- --------------- Content ---------------- -->
     <div class="website-content">
       <div class="header">
         <div class="languages">
           <div class="eng">Eng</div>
+          -
           <div class="id">ID</div>
         </div>
         <div class="logo">
@@ -35,39 +30,73 @@
         </div>
       </div>
       <nav class="navbar">
-        <div class="recent-project">
-          <div class="project">
-            <img src="" alt="" />
-            <div class="project-title">
-              <h4>Toko Asyik Banget</h4>
+        <div class="head-nav">
+          <div class="logo">
+            <a href="#">REY Universe</a>
+          </div>
+          <div class="close">close</div>
+        </div>
+        <div class="main-nav">
+          <div class="preview">
+            <div class="project-preview">
+              <div class="img">
+                <img src="images/toko.png" alt="" width="300" />
+                <div class="description">
+                  <div class="text">
+                    <h4>Recent Project</h4>
+                    <p>POS Toko Sederhana</p>
+                  </div>
+                  <div class="scope">
+                    <h4>Scope</h4>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>PHP</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="tools">
-              <i class="fa-brands fa-html5"></i>
-              <i class="fa-brands fa-css3-alt"></i>
-              <i class="fa-brands fa-php"></i>
+
+            <div class="social">
+              <ul>
+                <li>
+                  <a href=""><img src="assets/icons/github.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="assets/icons/discord.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="assets/icons/linkedin.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="assets/icons/youtube.svg" alt="" /></a>
+                </li>
+              </ul>
+              <p>&copy; 2025 Rey Universe. All rights reserved.</p>
             </div>
           </div>
+          <div class="vertical-line"></div>
+          <ul class="navigasi">
+            <li>
+              <a href="">Project</a>
+            </li>
+            <li>
+              <a href="">Services</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="close">close</div>
-        <ul class="navigasi">
-          <li>
-            <a href="">Project</a>
-          </li>
-          <li>
-            <a href="">Services</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-        </ul>
       </nav>
 
       <section class="hero">
         <div class="intro">
-          <h5>Halo. Saya Muhamad Raihan</h5>
+          <h1>Halo. Saya Muhamad Raihan,</h1>
           <p>
             Fokus mempelajari pemrograman web dan software development, dengan
             tujuan untuk menjadi seorang Software Engineer profesional.
@@ -81,28 +110,26 @@
           <div class="border"></div>
           <p>01</p>
         </div>
+
         <div class="case">
           <div class="case-img">
             <img src="images/toko.png" alt="" />
-            <div class="case-text">
-              <h5>Aplikasi POS Sederhana</h5>
-              <p>Membuat aplikasi pos sederhana menggunakan php</p>
-              <a href=""><i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="case-img">
-            <img src="images/laptop.png" alt="" />
-            <div class="case-text">
-              <h5>Aplikasi Penjualan Laptop</h5>
-              <p>Membuat data penjualan laptop menggunakan php</p>
-              <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            <div class="case-description">
+              <div class="case-text">
+                <h3>Aplikasi POS Sederhana</h3>
+                <p>Membuat aplikasi pos sederhana menggunakan php</p>
+              </div>
+              <button>
+                <img src="assets/icons/arrow-to-right.svg" alt="" />
+              </button>
             </div>
           </div>
         </div>
       </section>
     </div>
-    <!-- 
+
+    <!-- --------------- Loading Animation -------------- -->
+
     <div class="loading-screen">
       <div class="loader">
         <div class="loader-1 bar"></div>
@@ -143,6 +170,6 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="js/main.js"></script> -->
+    <script src="js/main.js"></script>
   </body>
 </html>
